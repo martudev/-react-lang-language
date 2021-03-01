@@ -1,6 +1,6 @@
 {
   "name": "@react-lang/language",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "This is a React library for changing the language within your application.",
   "author": "Martu Amengual <martuu.amengual@gmail.com>",
   "license": "MIT",
