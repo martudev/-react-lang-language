@@ -334,7 +334,7 @@ Usage
 <Language.Consumer>
 {({ get, handleSetLanguage }) => (
     <p>{get('someKey')}</p>
-    <button onClick={handleSetLanguage('fr')}>Change language to FR</button>
+    <button onClick={() => handleSetLanguage('fr')}>Change language to FR</button>
 )}
 </Language.Consumer>
 ```
@@ -349,7 +349,7 @@ Usage
 <Language.Consumer>
 {({ handleSetLanguage, lang }) => (
     <p>Current language is: {lang}</p>
-    <button onClick={handleSetLanguage('fr')}>Change language to FR</button>
+    <button onClick={() => handleSetLanguage('fr')}>Change language to FR</button>
 )}
 </Language.Consumer>
 ```
