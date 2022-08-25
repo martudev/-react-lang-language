@@ -46,7 +46,7 @@ import ReactDOM from 'react-dom'
 
 import { Language, setDefault, setTranslations } from '@react-lang/language'
 import en from './en.json'
-import en from './es.json'
+import es from './es.json'
 
 setDefault('en')
 setTranslations({ en, es })
